@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "syngbot"
+version = "0.1.0"
+description = ""
+authors = ["Christoph Stahl <christoph.stahl@tu-dortmun.de>"]
+license = "AGPL3+"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+maubot = "^0.5.1"
+socketio = "^0.2.1"
+syng = {extras = ["client"], version = "^2.1.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

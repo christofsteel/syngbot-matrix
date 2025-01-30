@@ -1,0 +1,7 @@
+maubot: 0.1.0
+id: rocks.syng.SyngBot
+version: 1.0.5
+license: AGPL3+
+modules:
+  - syngbot
+main_class: SyngBot
