@@ -1,6 +1,6 @@
-maubot: 0.1.0
+maubot: 0.3.0
 id: rocks.syng.SyngBot
-version: 1.0.5
+version: 1.0.64
 license: AGPL3+
 modules:
   - syngbot
